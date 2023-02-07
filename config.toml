@@ -1,4 +1,4 @@
-baseURL = "https://purple-bush-00ab46010.2.azurestaticapps.net/"
+baseURL = "https://newblog.tpk.pw/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = 'terminal'
