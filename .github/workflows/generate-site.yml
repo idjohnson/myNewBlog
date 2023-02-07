@@ -15,9 +15,9 @@ jobs:
         run: |
           umask 0002
 
-          apt-get update -y
+          sudo apt-get update -y
           wget https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_0.79.0_Linux-64bit.deb
-          dpkg -i hugo_0.79.0_Linux-64bit.deb
+          sudo dpkg -i hugo_0.79.0_Linux-64bit.deb
       - name: Hugo Build
         run: |
           npm run build
